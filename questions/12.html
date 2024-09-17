@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What does this funcion return?</title>
+    <link rel="stylesheet" href="../prism/prism-okaidia.css">
+    <script src="../prism/prism.js"></script>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+<main>
+    <h1>Question 12: What does this function return?</h1>
+
+    <p>Scoping can be very hard and stuff</p>
+
+<pre><code class="language-js">function coolFunc() {
+    var x = 10;
+    if (true) {
+        let x = 20;
+    }
+    
+
+    return x;
+}</code></pre>
+
+    <div class="answers">
+        <a href="13.html">10</a>
+        <a href="fail.html">20</a>
+        <a href="fail.html">30</a>
+        <a href="fail.html">SyntaxError</a>
+    </div>
+</main>
+</body>
+</html>

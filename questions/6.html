@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What does this funcion return?</title>
+    <link rel="stylesheet" href="../prism/prism-okaidia.css">
+    <script src="../prism/prism.js"></script>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+<main>
+    <h1>Question 6: What does this function return?</h1>
+
+    <p>Ok, time for some real scripting.</p>
+
+<pre><code class="language-js">function coolFunc(value) {
+    if (value) {
+        return 2;
+    } else {
+        return 1;
+    }
+}</code></pre>
+
+    <div class="answers">
+        <a href="fail.html">2</a>
+        <a href="fail.html">2 if value is falsy, 1 if value is truthy</a>
+        <a href="7.html">1 if value is falsy, 2 if value is truthy</a>
+        <a href="fail.html">Error</a>
+    </div>
+</main>
+</body>
+</html>
